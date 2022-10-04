@@ -1,0 +1,19 @@
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="8dp"  />
+
+    <gradient
+
+        android:endColor="#1C7540EE"
+        android:centerColor="#1C7540EE"
+        android:startColor="#1C7540EE"
+        android:type="linear"/>
+
+</shape>

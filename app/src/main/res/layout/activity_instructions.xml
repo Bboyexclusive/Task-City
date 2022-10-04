@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintBottom_toTopOf="@+id/play4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB15F3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction"
+                android:layout_width="match_parent"
+                android:layout_height="370dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/coinbakground"
+                    android:padding="26dp"
+                    app:srcCompat="@drawable/instructionplayvideo" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Watch\nVideo"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Watch unlimited videos everyday to keep earning coins. Watching every video gives you 50 coins, however closing video in between won't give you any coins."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB15F3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction"
+                android:layout_width="match_parent"
+                android:layout_height="370dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/coinbakground"
+                    android:padding="26dp"
+                    app:srcCompat="@drawable/instructionspin" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Lucky\n to Spin"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Luck is the key here. You get unlimited spin every day and rest goes as its name. lucky Spin and win coins."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB15F3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction"
+                android:layout_width="match_parent"
+                android:layout_height="370dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/coinbakground"
+                    android:padding="26dp"
+                    app:srcCompat="@drawable/instructiondailycheck" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text=" Daily \nCheck-ins"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Open Daily Check-ins everyday to earn coins on daily basis. You can only get rewarded once everyday."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB15F3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction"
+                android:layout_width="match_parent"
+                android:layout_height="370dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/coinbakground"
+                    android:padding="26dp"
+                    app:srcCompat="@drawable/instructionreedeming" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Withdraw"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+
+                    android:gravity="center"
+                    android:text="Withdraw your Earnings Once your coins get upto 300 000 coins '30Usd'. there are different payment method available to enable Withdrow your earnings. The payment is cleared every monday of every 2 week, twice in month. If we find out to you use some 'cheats' to achieve more coins we will have to cancel your account"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB15F3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction"
+                android:layout_width="match_parent"
+                android:layout_height="370dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/coinbakground"
+                    android:padding="26dp"
+                    app:srcCompat="@drawable/instructionbanner" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Small\nPoint"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Small point are simple and easy to use Earn 20coin for each time you click on the small point."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ViewFlipper>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/backbutton2"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrowback" />
+
+    <Button
+        android:id="@+id/play4"
+        android:layout_width="245dp"
+        android:layout_height="79dp"
+        android:background="@drawable/back1now"
+        android:fontFamily="@font/font"
+        android:onClick="nextView"
+        android:text="CONTINUE"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

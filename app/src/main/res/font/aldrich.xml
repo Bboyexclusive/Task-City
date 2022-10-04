@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="Aldrich"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
+</font-family>

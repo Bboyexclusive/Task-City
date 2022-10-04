@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF8FF"
+    tools:context="com.bboyexclusive.earns.RedeemPayTm">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/back">
+
+        <RelativeLayout
+            android:id="@+id/relativecoinbalance"
+            android:layout_width="320dp"
+            android:layout_height="122dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/backreedem1">
+
+            <TextView
+                android:id="@+id/textViewCoins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/imageView5"
+                android:fontFamily="@font/font"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_marginStart="26dp"
+                android:layout_marginBottom="0dp"
+                android:layout_toEndOf="@+id/imageView5"
+                android:fontFamily="@font/font"
+                android:text="MY BALANCE:"
+
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/back17"
+                android:padding="21dp"
+                app:srcCompat="@drawable/settingsicon" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backbutton2"
+        android:padding="15dp"
+        app:srcCompat="@drawable/arrowback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="30dp"
+        android:text="Task City"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/payTmmobile"
+        style="@android:style/Widget.Holo.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:maxLength="9"
+        android:inputType="phone"
+        android:text="0"
+        android:windowSoftInputMode="stateHidden"
+        android:textAlignment="center"
+        android:fontFamily="@font/font"
+        android:textColor="#434D74"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Checkout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+
+        android:layout_below="@+id/relative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="How many coins you want to turn into money?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#3E425D"
+        app:layout_constraintBottom_toTopOf="@+id/payTmmobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="245dp"
+        android:layout_height="79dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/back1now"
+        android:onClick="payTm"
+        android:text="Next"
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Checkout"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font"
+
+        android:layout_marginTop="5dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/font"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="You must have +300 000 coins."
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="46dp"
+    android:height="48dp"
+    android:viewportWidth="46"
+    android:viewportHeight="48">
+  <path
+      android:pathData="M20,26L30,32L20,38V26Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="4"
+      android:fillColor="#00000000"
+      android:strokeColor="#43D3BE"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M41,18H7C5.3432,18 4,19.3431 4,21V43C4,44.6569 5.3432,46 7,46H41C42.6569,46 44,44.6569 44,43V21C44,19.3431 42.6569,18 41,18Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="4"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M2.4,10.162L41.006,2.282"
+      android:strokeLineJoin="round"
+      android:strokeWidth="4"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="round"/>
+</vector>

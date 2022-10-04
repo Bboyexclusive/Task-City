@@ -1,0 +1,9 @@
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<vector android:height="100dp" android:viewportHeight="7"
+    android:viewportWidth="7" android:width="100dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="M3.39996,0L3.39997,0A3.39996,3.39996 0,0 1,6.79993 3.39996L6.79993,3.39997A3.39996,3.39996 0,0 1,3.39997 6.79993L3.39996,6.79993A3.39996,3.39996 0,0 1,0 3.39997L0,3.39996A3.39996,3.39996 0,0 1,3.39996 0z"/>
+</vector>

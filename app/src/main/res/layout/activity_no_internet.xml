@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51459E"
+    tools:context="com.bboyexclusive.earns.NoInternetActivity">
+
+    <RelativeLayout
+        android:id="@+id/wrinstuction"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="false"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/coinbakground"
+            android:padding="26dp"
+            app:srcCompat="@drawable/nointernet" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView21"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="No\nConnection"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="Please check your internet \n connection and try again"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="245dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/back1now"
+        android:fontFamily="@font/font"
+        android:text="RETRY"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.86" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<resources>
+
+    <style name="AppTheme.NoActionBar"  parent="Theme.Design.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#FF00EE</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowActionBar">@color/colorPrimaryDark</item>
+
+    </style>
+</resources>

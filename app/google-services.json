@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "846572350365",
+    "project_id": "watch-n-earn-8582e",
+    "storage_bucket": "watch-n-earn-8582e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846572350365:android:89aa02f5b73d2522a79d74",
+        "android_client_info": {
+          "package_name": "com.bboyexclusive.earns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846572350365-4l7g94h7551akdiooeri4n03s5454lme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bboyexclusive.earns",
+            "certificate_hash": "36e5e3c24a78fe6f7cbf012f877bcbe2f3d00291"
+          }
+        },
+        {
+          "client_id": "846572350365-5curua8f24m08ml6mhnfp5296pkcp7gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1q8WY0kYCxt3NxLX2FtScxYPyteFAZCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846572350365-5curua8f24m08ml6mhnfp5296pkcp7gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

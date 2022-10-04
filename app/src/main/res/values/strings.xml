@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<resources>
+    <string name="app_name">Task City</string>
+    <string name="nointernet">Please check your internet connection and try again</string>
+    <string name="title">Task\n&amp; City</string>
+    <string name="admob_id">ca-app-pub-1500197259679764~8808274177</string>
+    <string name="admob_insterestitial">ca-app-pub-1500197259679764/6510248049</string>
+    <string name="admob_rewarded">ca-app-pub-1500197259679764/2379431344</string>
+    <string name="admob_banner">ca-app-pub-1500197259679764/7440186333</string>
+</resources>

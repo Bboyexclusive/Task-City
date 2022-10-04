@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright (c) 2020. Created by GNASHER YT and GNCODES.TK
+  ~ Get more Codes from gncodes.tk
+  -->
+
+<vector android:height="91.22807dp" android:viewportHeight="52"
+    android:viewportWidth="57" android:width="100dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000"
+        android:pathData="M43.3636,2H13C6.9249,2 2,6.9249 2,13V39C2,45.0751 6.9249,50 13,50H43.3636C49.4388,50 54.3636,45.0751 54.3636,39V13C54.3636,6.9249 49.4388,2 43.3636,2Z"
+        android:strokeColor="#ffffff" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="4"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M37.2727,12.9091H19.0909C16.8818,12.9091 15.0909,14.7 15.0909,16.9091V26.3637C15.0909,28.5728 16.8818,30.3637 19.0909,30.3637H37.2727C39.4819,30.3637 41.2727,28.5728 41.2727,26.3637V16.9091C41.2727,14.7 39.4819,12.9091 37.2727,12.9091Z"
+        android:strokeColor="#43D3BE" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="4"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M15.0909,39.0909H41.2727"
+        android:strokeColor="#ffffff" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="4"/>
+</vector>
